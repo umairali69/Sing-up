@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Clon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="card">
+        <section class="left-panel aria-label=" Login panel>
+            <div class="welcome-icon" aria-hidden="true"><i class="fa-solid fa-right-to-bracket"></i></div>
+            <h1>Welcome Back!</h1>
+            <p>To keep connected with us please login <bwith your personal infor class="desktop-break">with your personal info</p>
+                 <button class="login-btn" type="button"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i>LOGIN IN</button>
+        </section>
+        <section class="right-panel" aria-labelledby="signup-title">
+            <h2 id="signup-title">Sign Up</h2>
+            <div class="social-icons" aria-label="social-media">
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" aria-label="X">
+                   <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" aria-label="GirHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+            <div class="divider"><span>--OR--</span></div>
+            <form class="signup-form">
+                <label class="visually-hidden" for="name">name</label>
+                <input id="name" name="name" type="text" placeholder="name" autocomplete="name" required>
+                <label class="visually-hidden" for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Email" autocomplete="email" required>
+                <label class="visually-hidden" for="password">Password</label>
+                <input id="password" name="password" type="password" placeholder="Password" autocomplete="new-password" required>
+                <label class="terms" for="accept-terms">
+                <input id="accept-terms" name="accept-terms" type="checkbox" required>
+                <span>I accept terms</span>
+                </label>
+                <button class="register-btn" type="submit">REGISTER</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
